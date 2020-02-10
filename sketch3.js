@@ -37,7 +37,7 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-  if (coincollect>50){coincollect=50}
+  if (coincollect>150){coincollect=150}
 
    if (sprite.x>900)
   { alert("you lose")
