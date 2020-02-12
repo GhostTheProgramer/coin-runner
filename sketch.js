@@ -40,7 +40,7 @@ group.add(sprite);
     if (coincollect>50){coincollect=50}
 
   if (sprite.x>900){
-  window.location.href = "https://bigboybryson.github.io/theplanegame/";
+  window.location.href = "troydatboi134.github.io/coin-runner/";
 }
   
     background("blue");
