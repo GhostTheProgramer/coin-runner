@@ -41,7 +41,7 @@ group.add(sprite);
 
    if (sprite.x>900)
   { alert("you lose")
-  window.location.href = "troydatboi134.github.io/coin-runner/";
+  window.location.href = "https://troydatboi134.github.io/coin-runner/";
 }
   
     background("blue");
