@@ -123,22 +123,16 @@ group.add(sprite);
       }
 
 
-    fill("yellow");
-                
- text('score',192,40 );
-fill("red");
-                  
-text(score,192,82 );
-    fill("yellow");
-fill("red");
+      text("time",400,300 );
+      text(time/15,400,200 );
 
 
       text("score",50,300 );
    fill("red");
-     text("speed",300,200 );
+     text("speed",300,300 );
    fill("red");
     
-    text(coincollect,300,170 );
+    text(coincollect,300,200 );
    fill("red");
    text(score,100,342 );
     fill("yellow");
