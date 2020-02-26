@@ -78,12 +78,10 @@ group.add(sprite);
     if (keyDown("down")) {
     coincollect=coincollect/2;
       score=score/2;
+      
     }
-      if (keyDown("up")) {
-    coincollect=coincollect/2;
-      score=time/2;
-    }
-       if (keyDown(".")) {
+
+       if (keyDown("up")) {
     coincollect=coincollect*2;
         coincollect=coincollect/2;
       score=score/2;
