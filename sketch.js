@@ -63,10 +63,7 @@ group.add(sprite);
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
-    if (keyDown("up")) {
-          sprite.y = sprite.y-5;
-
-    }
+    
     
      if (keyDown("left")) {
        time=timebak*2;
@@ -77,9 +74,10 @@ group.add(sprite);
   sprite2.x=coinxbak;
   sprite2.y=coinybak;
     }
+    
     if (keyDown("down")) {
-          sprite.y = sprite.y+5;
-
+    coincollect=coincollect/2;
+      score=score/2;
     }
      if (keyDown("space")) {
           sprite.y =200
