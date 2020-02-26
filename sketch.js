@@ -68,7 +68,7 @@ group.add(sprite);
 
     }
     
-     if (keyDown("l")) {
+     if (keyDown("left")) {
        time=timebak;
        score=scorebak;
        coincollect=coincollectbak;
