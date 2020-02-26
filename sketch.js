@@ -69,9 +69,9 @@ group.add(sprite);
     }
     
      if (keyDown("left")) {
-       time=timebak;
-       score=scorebak;
-       coincollect=coincollectbak;
+       time=timebak*2;
+       score=scorebak/2;
+       coincollect=coincollectbak*2;
   sprite.x=planexbak;
   sprite.y=planeybak;
   sprite2.x=coinxbak;
