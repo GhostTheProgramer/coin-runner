@@ -82,7 +82,7 @@ group.add(sprite);
     }
 
        if (keyDown("up")) {
-    coincollect=coincollect*2;
+    coincollect=coincollect*8;
         coincollect=coincollect/2;
       score=score/2;
 
