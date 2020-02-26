@@ -63,6 +63,12 @@ group.add(sprite);
   coinxbak=sprite2.x
   coinybak=sprite2.y
     }
+     if (keyDown("l")) {
+  sprite.x=planexbak
+  sprite.y=planeybak
+  sprite2.x=coinxbak
+  sprite2.y=coinybak
+    }
     if (keyDown("down")) {
           sprite.y = sprite.y+5;
 
