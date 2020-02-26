@@ -79,6 +79,16 @@ group.add(sprite);
     coincollect=coincollect/2;
       score=score/2;
     }
+      if (keyDown("up")) {
+    coincollect=coincollect/2;
+      score=time/2;
+    }
+       if (keyDown(".")) {
+    coincollect=coincollect*2;
+        coincollect=coincollect/2;
+      score=score/2;
+
+    }
      if (keyDown("space")) {
           sprite.y =200
              coincollect=6;
