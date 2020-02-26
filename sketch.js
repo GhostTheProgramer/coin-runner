@@ -135,10 +135,10 @@ fill("red");
 
       text("time",50,300 );
    fill("red");
-     text("score",150,300 );
+     text("score",300,200 );
    fill("red");
     
-    text(score,200,300 );
+    text(score,300,170 );
    fill("red");
    text(time/15,100,342 );
     fill("yellow");
