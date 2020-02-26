@@ -6,10 +6,7 @@ function setup(){
     createCanvas(900,400);
 
 time = 0;
-  planexbak=0;
-  planeybak=0;
-  coinxbak=0;
-  coinybak=0;
+
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
@@ -36,7 +33,13 @@ group.add(sprite);
   
  function draw() {
  
-
+ timebak=time;
+         planexbak=sprite.x;
+  planeybak=sprite.y;
+  coinxbak=sprite2.x;
+  coinybak=sprite2.y;
+  scorebak=score;
+   coincollectbak=coincollect;
   
 
       
@@ -61,15 +64,7 @@ group.add(sprite);
           sprite.y = sprite.y-5;
 
     }
-       if (keyDown("s")) {
- timebak=time;
-         planexbak=sprite.x;
-  planeybak=sprite.y;
-  coinxbak=sprite2.x;
-  coinybak=sprite2.y;
-  scorebak=score;
-   coincollectbak=coincollect;
-    }
+    
      if (keyDown("l")) {
        time=timebak;
        score=scorebak;
