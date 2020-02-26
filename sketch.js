@@ -6,6 +6,10 @@ function setup(){
     createCanvas(900,400);
 
 time = 0;
+  planexbak=0;
+  planeybak=0;
+  coinxbak=0;
+  coinybak=0;
   sprite2=createSprite(150,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
@@ -52,6 +56,12 @@ group.add(sprite);
     if (keyDown("up")) {
           sprite.y = sprite.y-5;
 
+    }
+       if (keyDown("s")) {
+  planexbak=sprite.x
+  planeybak=sprite.y
+  coinxbak=sprite2.x
+  coinybak=sprite2.y
     }
     if (keyDown("down")) {
           sprite.y = sprite.y+5;
