@@ -135,7 +135,11 @@ fill("red");
 
       text("time",50,300 );
    fill("red");
+     text("score",150,300 );
+   fill("red");
     
+    text(score,200,300 );
+   fill("red");
    text(time/15,100,342 );
     fill("yellow");
     
