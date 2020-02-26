@@ -133,14 +133,14 @@ text(score,192,82 );
 fill("red");
 
 
-      text("time",50,300 );
+      text("score",50,300 );
    fill("red");
-     text("score",300,200 );
+     text("speed",300,200 );
    fill("red");
     
-    text(score,300,170 );
+    text(coincollect,300,170 );
    fill("red");
-   text(time/15,100,342 );
+   text(score,100,342 );
     fill("yellow");
     
  
