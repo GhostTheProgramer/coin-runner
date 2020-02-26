@@ -20,10 +20,14 @@ sprite.addImage(img);
   group = createGroup();
 group.add(sprite);
   score = 0 ;
+  scorebak=0;
   pause = 0;
   pause2 = .5; 
   coincollect = 6;
+  coincollectbak=0;
   time2 = 0;
+  timebak=0;
+  
 }
 
 
@@ -58,16 +62,22 @@ group.add(sprite);
 
     }
        if (keyDown("s")) {
-  planexbak=sprite.x
-  planeybak=sprite.y
-  coinxbak=sprite2.x
-  coinybak=sprite2.y
+ timebak=time;
+         planexbak=sprite.x;
+  planeybak=sprite.y;
+  coinxbak=sprite2.x;
+  coinybak=sprite2.y;
+  scorebak=score;
+   coincollectbak=coincollect;
     }
      if (keyDown("l")) {
-  sprite.x=planexbak
-  sprite.y=planeybak
-  sprite2.x=coinxbak
-  sprite2.y=coinybak
+       time=timebak;
+       score=scorebak;
+       coincollect=coincollectbak;
+  sprite.x=planexbak;
+  sprite.y=planeybak;
+  sprite2.x=coinxbak;
+  sprite2.y=coinybak;
     }
     if (keyDown("down")) {
           sprite.y = sprite.y+5;
