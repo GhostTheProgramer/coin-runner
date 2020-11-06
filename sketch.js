@@ -75,41 +75,6 @@ group.add(sprite);
   sprite2.y=coinybak;
     }
     
-    if (keyDown("down")) {
-    coincollect=coincollect/2;
-      score=score/2;
-      
-    }
-
-       if (keyDown("up")) {
-    coincollect=coincollect*8;
-        coincollect=coincollect/2;
-      score=score/2;
-
-    }
-     if (keyDown("space")) {
-          sprite.y =200
-             coincollect=6;
-          time=0;
-          sprite.x=50
-          score=0
-           sprite2.x=random(400, 900);
-                sprite2.y=random(50,370);
-              }
-    
-    
-    
-     if (keyDown("b"))
-
-     {
-       pause=pause+1;
-          }
-           if (pause===2)
-          {
-            pause=pause-2;
-          }
-          
-
 
    
     
@@ -144,8 +109,6 @@ fill("red");
 
 
 drawSprites();
-  
-  }
  }
 
 
