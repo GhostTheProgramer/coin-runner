@@ -31,19 +31,7 @@ group.add(sprite);
 
 
   
- function draw() {
-     if (keyDown("right")) {
-       timebak=time;
-         planexbak=sprite.x;
-  planeybak=sprite.y;
-  coinxbak=sprite2.x;
-  coinybak=sprite2.y;
-  scorebak=score;
-   coincollectbak=coincollect;
-    }
-   
 
-  
 
       
   time=time+1
