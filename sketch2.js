@@ -12,11 +12,11 @@ break;
  alert("bot or normal")
     var web = prompt("What's version of the plane game do you want to play,bot or normal");
 switch(web) {
-  case "normal":
+  case "Normal":
    window.location.href = "/coin-runner/index2.html";
 break;
 
-  case "bot":
+  case "Bot":
      window.location.href = "/coin-runner/index3.html"
     break;
 }
