@@ -63,7 +63,7 @@ group.add(sprite);
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
-    
+      if (coincollect>40){coincollect=40}
     
      if (keyDown("left")) {
        time=timebak*2;
