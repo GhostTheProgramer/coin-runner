@@ -133,10 +133,10 @@ text(coincollect,192,82 );
 fill("red");
 
 
-      text("time",50,300 );
+      text("score",50,300 );
    fill("red");
     
-   text(time/15,100,342 );
+   text(score,100,342 );
     fill("yellow");
     
  
