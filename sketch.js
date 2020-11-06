@@ -20,7 +20,7 @@ group.add(sprite);
   scorebak=0;
   pause = 0;
   pause2 = .5; 
-  coincollect = 2;
+  coincollect = 7;
   coincollectbak=0;
   time2 = 0;
   timebak=0;
