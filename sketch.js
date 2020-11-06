@@ -1,4 +1,5 @@
-preload(){
+
+function preload(){
   mySound = loadSound('ppe.mp3');
 
 }
@@ -31,7 +32,19 @@ group.add(sprite);
 
 
   
+ function draw() {
+     if (keyDown("right")) {
+       timebak=time;
+         planexbak=sprite.x;
+  planeybak=sprite.y;
+  coinxbak=sprite2.x;
+  coinybak=sprite2.y;
+  scorebak=score;
+   coincollectbak=coincollect;
+    }
+   
 
+  
 
       
   time=time+1
@@ -39,9 +52,9 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-    if (coincollect&gt;25){coincollect=25}
+    if (coincollect>25){coincollect=25}
 
-  if (sprite.x&gt;900){
+  if (sprite.x>900){
   window.location.href = "https://troydatboi134.github.io/coin-runner/";
 }
   
@@ -51,7 +64,7 @@ group.add(sprite);
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
-      if (coincollect&gt;40){coincollect=40}
+      if (coincollect>40){coincollect=40}
     
      if (keyDown("left")) {
        time=timebak*2;
