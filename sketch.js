@@ -52,7 +52,7 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-    if (coincollect>20){coincollect=20}
+    if (coincollect>24){coincollect=24}
 
   if (sprite.x>900){
   window.location.href = "https://troydatboi134.github.io/coin-runner/";
@@ -64,7 +64,6 @@ group.add(sprite);
   if (sprite.x===sprite.x) {
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
-      if (coincollect>40){coincollect=40}
     
      if (keyDown("left")) {
        time=timebak*2;
