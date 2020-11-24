@@ -52,7 +52,7 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-    if (coincollect>24){coincollect=24}
+    if (coincollect>32){coincollect=32}
 
   if (sprite.x>900){
   window.location.href = "https://troydatboi134.github.io/coin-runner/";
