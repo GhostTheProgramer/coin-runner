@@ -4,7 +4,7 @@ function preload(){
 
 }
 function setup(){  
-    createCanvas(900,400);
+    createCanvas(700,400);
 
 time = 0;
 
@@ -64,7 +64,7 @@ group.add(sprite);
      sprite.x=0;
    coincollect=coincollect+1;
              score = score+1;
- sprite2.x=random(300,850);
+
       sprite2.y=random(50,370); 
       }
 
