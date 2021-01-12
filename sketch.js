@@ -8,7 +8,7 @@ function setup(){
 
 time = 0;
 
-  sprite2=createSprite(150,200,0,0);
+  sprite2=createSprite(400,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
@@ -41,7 +41,7 @@ group.add(sprite);
   
   textSize(50);
   sprite.scale=.50;
-    if (coincollect>32){coincollect=32}
+    if (coincollect>40){coincollect=40}
 
   if (sprite.x>900){
   window.location.href = "https://troydatboi134.github.io/coin-runner/";
@@ -62,9 +62,9 @@ group.add(sprite);
    if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-   coincollect=coincollect+.1;
+   coincollect=coincollect+1;
              score = score+1;
- sprite2.x=random(400,900);
+ sprite2.x=random(500,900);
       sprite2.y=random(20,370); 
       }
 
