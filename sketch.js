@@ -8,7 +8,7 @@ function setup(){
 
 time = 0;
 
-  sprite2=createSprite(400,200,0,0);
+  sprite2=createSprite(450,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
