@@ -4,11 +4,11 @@ function preload(){
 
 }
 function setup(){  
-    createCanvas(700,400);
+    createCanvas(860,400);
 
 time = 0;
 
-  sprite2=createSprite(450,200,0,0);
+  sprite2=createSprite(700,200,0,0);
 img=loadImage("e.png")
 sprite2.addImage(img);
 sprite2.scale=0.5
@@ -43,7 +43,7 @@ group.add(sprite);
   sprite.scale=.50;
     if (coincollect>40){coincollect=40}
 
-  if (sprite.x>700){
+  if (sprite.x>860){
   window.location.href = "https://troydatboi134.github.io/coin-runner/";
 }
   
@@ -65,7 +65,7 @@ group.add(sprite);
    coincollect=coincollect+1;
              score = score+1;
 
-      sprite2.y=random(50,370); 
+      sprite2.y=random(50,365); 
       }
 
 
