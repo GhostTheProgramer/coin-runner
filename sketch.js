@@ -54,15 +54,7 @@ group.add(sprite);
     sprite.y = mouseY;
           sprite.x = sprite.x+coincollect;
     
-     if (keyDown("left")) {
-       time=timebak*2;
-       score=scorebak/2;
-       coincollect=coincollectbak*2;
-  sprite.x=planexbak;
-  sprite.y=planeybak;
-  sprite2.x=coinxbak;
-  sprite2.y=coinybak;
-    }
+
     
 
    
@@ -70,7 +62,7 @@ group.add(sprite);
    if (group.isTouching(sprite2)) {
        mySound.play();
      sprite.x=0;
-   coincollect=coincollect+.5;
+   coincollect=coincollect+.1;
              score = score+1;
  sprite2.x=random(400,900);
       sprite2.y=random(20,370); 
