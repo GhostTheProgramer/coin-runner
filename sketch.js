@@ -64,8 +64,8 @@ group.add(sprite);
      sprite.x=0;
    coincollect=coincollect+1;
              score = score+1;
- sprite2.x=random(500,900);
-      sprite2.y=random(20,370); 
+ sprite2.x=random(300,850);
+      sprite2.y=random(50,370); 
       }
 
 
