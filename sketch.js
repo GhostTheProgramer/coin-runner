@@ -1,7 +1,4 @@
-function preload(){
-  mySound = loadSound('ppe.mp3');
 
-}
 function setup(){  
     createCanvas(860,400);
 
@@ -59,7 +56,7 @@ group.add(sprite);
    
     
    if (group.isTouching(sprite2)) {
-       mySound.play();
+    
      sprite.x=0;
    coincollect=coincollect+1;
              score = score+1;
